@@ -22,6 +22,7 @@ public class JsonUtilities {
 
         JSONParser jsonParser = new JSONParser();
         JSONObject jsonObject = null;
+
         try {
 
             jsonObject = (JSONObject) jsonParser.parse(new FileReader(jsonPath));
